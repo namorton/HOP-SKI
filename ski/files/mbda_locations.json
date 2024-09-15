@@ -1,0 +1,61 @@
+{"locationIds":[
+    {
+        "locationId":"Le Plessis-Robinson",
+        "countryId":"France"},
+    {
+        "locationId":"Bolton",
+        "countryId":"United Kingdom"},
+    {
+        "locationId":"Rome",
+        "countryId":"Italy"},
+    {
+        "locationId":"Stevenage",
+        "countryId":"United Kingdom"},
+    {
+        "locationId":"Home Worker"},
+    {
+        "locationId":"Schrobenhausen",
+        "countryId":"Germany"},
+    {
+        "locationId":"Bristol",
+        "countryId":"United Kingdom"},
+    {
+        "locationId":"Fusaro",
+        "countryId":"Italy"},
+    {
+        "locationId":"Madrid",
+        "countryId":"Spain"},
+    {
+        "locationId":"Bourges Aeroport",
+        "countryId":"France"},
+    {
+        "locationId":"Aschau am Inn",
+        "countryId":"Germany"},
+    {
+        "locationId":"Bourges Subdray",
+        "countryId":"France"},
+    {
+        "locationId":"La Spezia",
+        "countryId":"Italy"},
+    {
+        "locationId":"Ulm",
+        "countryId":"Germany"},
+    {
+        "locationId":"Selles Saint-Denis",
+        "countryId":"France"},
+    {
+        "locationId":"La Boursidiere",
+        "countryId":"France"},
+    {
+        "locationId":"Cazaux",
+        "countryId":"France"},
+    {
+        "locationId":"Henlow",
+        "countryId":"United Kingdom"},
+    {
+        "locationId":"Strand",
+        "countryId":"United Kingdom"},
+    {
+        "locationId":"Warsaw",
+        "countryId":"Poland"}
+    ]}

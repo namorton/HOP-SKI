@@ -1,0 +1,415 @@
+{
+  "relationships": [
+    {
+      "nodeSource": "Organisation",
+      "name": "DELIVERS",
+      "description": "Organisation - Project",
+      "nodeTarget": "Project",
+      "label": "DELIVERS",
+      "properties": []
+    },
+    {
+      "nodeSource": "Role",
+      "name": "REQUIRES_SKILL",
+      "description": "Role - Skill",
+      "nodeTarget": "Skill",
+      "label": "REQUIRES_SKILL",
+      "properties": [
+        {
+          "indexed": false,
+          "unique": false,
+          "name": "level",
+          "type": "Integer",
+          "mandatory": false,
+          "primary": false
+        }
+      ]
+    },
+    {
+      "nodeSource": "Employee",
+      "name": "LOCATED_AT",
+      "description": "Employee - Location",
+      "nodeTarget": "Location",
+      "label": "LOCATED_AT",
+      "properties": []
+    },
+    {
+      "nodeSource": "Location",
+      "name": "LOCATED_IN",
+      "description": "Location - Country",
+      "nodeTarget": "Country",
+      "label": "LOCATED_IN",
+      "properties": []
+    },
+    {
+      "nodeSource": "Organisation",
+      "name": "IN_COUNTRY",
+      "description": "Organisation - Country",
+      "nodeTarget": "Country",
+      "label": "IN_COUNTRY",
+      "properties": []
+    },
+    {
+      "nodeSource": "Organisation",
+      "name": "PARENT_OF",
+      "description": "Organisation - Organisation",
+      "nodeTarget": "Organisation",
+      "label": "PARENT_OF",
+      "properties": []
+    },
+    {
+      "nodeSource": "Project",
+      "name": "NEEDS_ROLE",
+      "description": "Project - Role",
+      "nodeTarget": "Role",
+      "label": "NEEDS_ROLE",
+      "properties": []
+    },
+    {
+      "nodeSource": "Organisation",
+      "name": "PARENT_OF",
+      "description": "Organisation - Organisation",
+      "nodeTarget": "Organisation",
+      "label": "PARENT_OF",
+      "properties": []
+    },
+    {
+      "nodeSource": "Role",
+      "name": "REQUIRES_BEHAVIOUR",
+      "description": "Role - Behaviour",
+      "nodeTarget": "Behaviour",
+      "label": "REQUIRES_BEHAVIOUR",
+      "properties": [
+        {
+          "indexed": false,
+          "unique": false,
+          "name": "level",
+          "type": "Integer",
+          "mandatory": false,
+          "primary": false
+        }
+      ]
+    },
+    {
+      "nodeSource": "Employee",
+      "name": "MEMBER_OF",
+      "description": "Employee - Organisation",
+      "nodeTarget": "Organisation",
+      "label": "MEMBER_OF",
+      "properties": []
+    },
+    {
+      "nodeSource": "Employee",
+      "name": "HAS_ROLE",
+      "description": "Employee - Role",
+      "nodeTarget": "Role",
+      "label": "HAS_ROLE",
+      "properties": []
+    },
+    {
+      "nodeSource": "Employee",
+      "name": "MANAGES",
+      "description": "Employee - Employee",
+      "nodeTarget": "Employee",
+      "label": "MANAGES",
+      "properties": []
+    },
+    {
+      "nodeSource": "Employee",
+      "name": "MANAGES",
+      "description": "Employee - Employee",
+      "nodeTarget": "Employee",
+      "label": "MANAGES",
+      "properties": []
+    },
+    {
+      "nodeSource": "Employee",
+      "name": "IN_COUNTRY",
+      "description": "Employee - Country",
+      "nodeTarget": "Country",
+      "label": "IN_COUNTRY",
+      "properties": []
+    }
+  ],
+  "nodes": [
+    {
+      "presentation": {
+        "x": 1020,
+        "y": 820
+      },
+      "name": "Skill",
+      "properties": [
+        {
+          "indexed": false,
+          "unique": false,
+          "name": "description",
+          "type": "String",
+          "mandatory": false,
+          "primary": false
+        },
+        {
+          "indexed": false,
+          "unique": false,
+          "name": "skillReference",
+          "type": "String",
+          "mandatory": false,
+          "primary": false
+        },
+        {
+          "indexed": false,
+          "unique": false,
+          "name": "skillId",
+          "type": "String",
+          "mandatory": false,
+          "primary": false
+        }
+      ],
+      "labels": [
+        "Skill"
+      ]
+    },
+    {
+      "presentation": {
+        "x": 1200,
+        "y": 820
+      },
+      "name": "Behaviour",
+      "description": "",
+      "properties": [
+        {
+          "indexed": false,
+          "unique": false,
+          "name": "behaviourId",
+          "type": "String",
+          "mandatory": false,
+          "primary": false
+        },
+        {
+          "indexed": false,
+          "unique": false,
+          "name": "description",
+          "type": "String",
+          "mandatory": false,
+          "primary": false
+        }
+      ],
+      "labels": [
+        "Behaviour"
+      ]
+    },
+    {
+      "presentation": {
+        "x": 600,
+        "y": 100
+      },
+      "name": "Grade",
+      "properties": [
+        {
+          "indexed": false,
+          "unique": false,
+          "name": "gradeId",
+          "type": "String",
+          "mandatory": false,
+          "primary": false
+        },
+        {
+          "indexed": false,
+          "unique": false,
+          "name": "description",
+          "type": "String",
+          "mandatory": false,
+          "primary": false
+        }
+      ],
+      "labels": [
+        "Grade"
+      ]
+    },
+    {
+      "presentation": {
+        "x": 1020,
+        "y": 640
+      },
+      "name": "Role",
+      "properties": [
+        {
+          "indexed": false,
+          "unique": false,
+          "name": "roleId",
+          "type": "String",
+          "mandatory": false,
+          "primary": false
+        },
+        {
+          "indexed": false,
+          "unique": false,
+          "name": "responsibilities",
+          "type": "String",
+          "mandatory": false,
+          "primary": false
+        },
+        {
+          "indexed": false,
+          "unique": false,
+          "name": "purpose",
+          "type": "String",
+          "mandatory": false,
+          "primary": false
+        }
+      ],
+      "labels": [
+        "Role"
+      ]
+    },
+    {
+      "presentation": {
+        "x": 780,
+        "y": 100
+      },
+      "name": "Employee",
+      "properties": [
+        {
+          "indexed": false,
+          "unique": false,
+          "name": "buisnessTitle",
+          "type": "String",
+          "mandatory": false,
+          "primary": false
+        },
+        {
+          "indexed": false,
+          "unique": false,
+          "name": "fullName",
+          "type": "String",
+          "mandatory": false,
+          "primary": false
+        },
+        {
+          "indexed": false,
+          "unique": false,
+          "name": "employeeId",
+          "type": "String",
+          "mandatory": false,
+          "primary": false
+        }
+      ],
+      "labels": [
+        "Employee"
+      ]
+    },
+    {
+      "presentation": {
+        "x": 660,
+        "y": 460
+      },
+      "name": "Country",
+      "properties": [
+        {
+          "indexed": false,
+          "unique": false,
+          "name": "countryId",
+          "type": "String",
+          "mandatory": false,
+          "primary": false
+        },
+        {
+          "indexed": false,
+          "unique": false,
+          "name": "countryCode",
+          "type": "String",
+          "mandatory": false,
+          "primary": false
+        },
+        {
+          "indexed": false,
+          "unique": false,
+          "name": "capital",
+          "type": "String",
+          "mandatory": false,
+          "primary": false
+        }
+      ],
+      "labels": [
+        "Country"
+      ]
+    },
+    {
+      "presentation": {
+        "x": 1000,
+        "y": 280
+      },
+      "name": "Location",
+      "properties": [
+        {
+          "indexed": false,
+          "unique": false,
+          "name": "locationId",
+          "type": "String",
+          "mandatory": false,
+          "primary": false
+        }
+      ],
+      "labels": [
+        "Location"
+      ]
+    },
+    {
+      "presentation": {
+        "x": 1020,
+        "y": 460
+      },
+      "name": "Project",
+      "properties": [
+        {
+          "indexed": false,
+          "unique": false,
+          "name": "description",
+          "type": "String",
+          "mandatory": false,
+          "primary": false
+        },
+        {
+          "indexed": false,
+          "unique": false,
+          "name": "projectId",
+          "type": "String",
+          "mandatory": false,
+          "primary": false
+        }
+      ],
+      "labels": [
+        "Project"
+      ]
+    },
+    {
+      "presentation": {
+        "x": 780,
+        "y": 280
+      },
+      "name": "Organisation",
+      "properties": [
+        {
+          "indexed": false,
+          "unique": false,
+          "name": "organisationName",
+          "type": "String",
+          "mandatory": false,
+          "primary": false
+        },
+        {
+          "indexed": false,
+          "unique": false,
+          "name": "organisationId",
+          "type": "String",
+          "mandatory": false,
+          "primary": false
+        }
+      ],
+      "labels": [
+        "Organisation"
+      ]
+    }
+  ],
+  "name": "SKI",
+  "description": "Imported using apoc.meta.schema from \u003cConfigure saved connections in the Database tool\u003e (bolt://localhost:7687)"
+}

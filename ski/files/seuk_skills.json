@@ -1,0 +1,39 @@
+{   
+    "skills": [
+        {
+            "skillId": "Software Product Lines",
+            "skillReference": "T5.0",   
+            "description": ""
+        },
+        {
+            "skillId": "Software Architectures",
+            "skillReference": "T5.1",   
+            "description": ""
+        },
+        {
+            "skillId": "Software Design and Implementation",
+            "skillReference": "T5.2",   
+            "description": ""
+        },
+        {
+            "skillId": "Software Safety",
+            "skillReference": "T5.3",   
+            "description": ""
+        },
+        {
+            "skillId": "Software Security",
+            "skillReference": "T5.4",   
+            "description": ""
+        },
+        {
+            "skillId": "Distributed Computing",
+            "skillReference": "T5.5",   
+            "description": ""
+        },
+        {
+            "skillId": "Computing Platforms and Execution Environments",
+            "skillReference": "T5.6",   
+            "description": ""
+        }
+    ]
+}

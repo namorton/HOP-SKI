@@ -1,0 +1,27 @@
+{
+    "fullName": "NEIL MORTON",
+    "gradeId": "Level 5",
+    "behaviours": [
+        {"behaviourId": "Influence", "level":"3"},
+        {"behaviourId": "Managing External Relationships", "level":"3"},
+        {"behaviourId": "Working Together", "level":"3"},
+        {"behaviourId": "Adaptability", "level":"3"},
+        {"behaviourId": "Courage and Conviction", "level":"3"},
+        {"behaviourId": "Forward Thinking", "level":"3"},
+        {"behaviourId": "Initiative", "level":"3"},
+        {"behaviourId": "Result Orientation", "level":"3"},
+        {"behaviourId": "Analysis and Judgement", "level":"3"},
+        {"behaviourId": "Concern for Order and Quality", "level":"3"},
+        {"behaviourId": "Expertise", "level":"3"},
+        {"behaviourId": "Planning and Organising", "level":"3"}
+    ],
+    "skills": [   
+        {"skillId": "Software Product Lines", "level": "3"},
+        {"skillId": "Software Architectures", "level": "5"},
+        {"skillId": "Software Design and Implementation", "level": "5"},
+        {"skillId": "Software Safety", "level": "3"},
+        {"skillId": "Software Security", "level": "3"},
+        {"skillId": "Distributed Computing", "level": "5"},
+        {"skillId": "Computing Platforms and Execution Environments", "level": "5"}
+    ]
+}

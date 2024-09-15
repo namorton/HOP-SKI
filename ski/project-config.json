@@ -1,0 +1,61 @@
+{
+  "description" : "The Software Knowledge Interface Project",
+  "company" : "MBDA Missile Systems",
+  "department" : "Software Product Lines and Capability",
+  "metadataBaseFolder" : "${PROJECT_HOME}/metadata",
+  "unitTestsBasePath" : "${PROJECT_HOME}",
+  "dataSetsCsvFolder" : "${PROJECT_HOME}/datasets",
+  "enforcingExecutionInHome" : true,
+  "parentProjectName" : "default",
+  "config" : {
+    "variables" : [ {
+      "name" : "ONEHR_RAW_FILE",
+      "value" : "org_chart_all.csv",
+      "description" : "The OneHR input file."
+    }, {
+      "name" : "ONEHR_PROCESSED_FILE",
+      "value" : "org_chart_all_processed.csv",
+      "description" : "The processed OneHR file."
+    }, {
+      "name" : "IMPORT_FOLDER",
+      "value" : "${PROJECT_HOME}/files",
+      "description" : "The folder used to import data from."
+    }, {
+      "name" : "EMPLOYEE_FOLDER",
+      "value" : "${IMPORT_FOLDER}/employees",
+      "description" : "The folder used to import employee data from."
+    }, {
+      "name" : "ROLE_FOLDER",
+      "value" : "${IMPORT_FOLDER}/roles",
+      "description" : "The folder used to import role data from."
+    }, {
+      "name" : "JSON_FILES",
+      "value" : "*.json",
+      "description" : "Wildcard specifier for JSON files."
+    }, {
+      "name" : "SE-UK",
+      "value" : "'M-EN-SE-UK'",
+      "description" : "Software Engineering UK Organisations"
+    }, {
+      "name" : "SPLC-UK",
+      "value" : "'M-EN-SE-PLC-UK'",
+      "description" : "SPLC UK Organisations"
+    }, {
+      "name" : "SE-FR",
+      "value" : "'M-EN-SE-FR'",
+      "description" : "Software Engineering France Organisations"
+    }, {
+      "name" : "SPLC-FR",
+      "value" : "'M-EN-SE-PLC-FR'",
+      "description" : "SPLC FR Organisations"
+    }, {
+      "name" : "SE-IT",
+      "value" : "'M-EN-SE-IT'",
+      "description" : "Software Engineering Italy Organisations"
+    }, {
+      "name" : "SPLC-IT",
+      "value" : "'M-EN-SE-PLC-IT'",
+      "description" : "SPLC IT Organisations"
+    } ]
+  }
+}

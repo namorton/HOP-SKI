@@ -1,0 +1,23 @@
+{
+    "fullName": "JAMES KNAPP",
+    "gradeId": "Level 5",
+    "behaviours": [
+        {"behaviourId": "Developing Others", "level":"3"},
+        {"behaviourId": "Team Leadership", "level":"3"},
+        {"behaviourId": "Influence", "level":"3"},
+        {"behaviourId": "Managing External Relationships", "level":"3"},
+        {"behaviourId": "Working Together", "level":"3"},
+        {"behaviourId": "Adaptability", "level":"3"},
+        {"behaviourId": "Courage and Conviction", "level":"3"},
+        {"behaviourId": "Result Orientation", "level":"3"},
+        {"behaviourId": "Analysis and Judgement", "level":"3"},
+        {"behaviourId": "Concern for Order and Quality", "level":"3"},
+        {"behaviourId": "Expertise", "level":"3"},
+        {"behaviourId": "Planning and Organising", "level":"3"}
+        ],
+    "skills": [
+        {"skillId": "Software Product Lines", "level":"3"},
+        {"skillId": "Software Design and Implementation", "level":"3"},
+        {"skillId": "Computing Platforms and Execution Environments", "level":"3"}
+    ]
+}

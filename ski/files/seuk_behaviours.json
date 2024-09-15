@@ -1,0 +1,64 @@
+{   
+    "behaviours": [
+        {
+            "behaviourId": "Developing Others",
+            "description": ""
+        },
+        {
+            "behaviourId": "Team Leadership",
+            "description": ""
+        },
+        {
+            "behaviourId": "Influence",
+            "description": ""
+        },
+        {
+            "behaviourId": "Managing External Relationships",
+            "description": ""
+        },
+        {
+            "behaviourId": "Working Together",
+            "description": ""
+        },
+        {
+            "behaviourId": "Adaptability",
+            "description": ""
+        },
+        {
+            "behaviourId": "Cultural Sensitivity",
+            "description": ""
+        },
+        {
+            "behaviourId": "Courage and Conviction",
+            "description": ""
+        },
+        {
+            "behaviourId": "Forward Thinking",
+            "description": ""
+        },
+        {
+            "behaviourId": "Initiative",
+            "description": ""
+        },
+        {
+            "behaviourId": "Result Orientation",
+            "description": ""
+        },
+        {
+            "behaviourId": "Analysis and Judgement",
+            "description": ""
+        },
+        {
+            "behaviourId": "Concern for Order and Quality",
+            "description": ""
+        },
+        {
+            "behaviourId": "Expertise",
+            "description": ""
+        },
+        {
+            "behaviourId": "Planning and Organising",
+            "description": ""
+        }
+    ]
+}

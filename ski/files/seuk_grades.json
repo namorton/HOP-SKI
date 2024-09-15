@@ -1,0 +1,32 @@
+{   
+    "grades": [
+        {
+            "gradeId": "Level 1",
+            "description": ""
+        },
+        {
+            "gradeId": "Level 2",
+            "description": ""
+        },
+        {
+            "gradeId": "Level 3",
+            "description": ""
+        },
+        {
+            "gradeId": "Level 3+",
+            "description": ""
+        },
+        {
+            "gradeId": "Level 4",
+            "description": ""
+        },
+        {
+            "gradeId": "Level 4+",
+            "description": ""
+        },
+        {
+            "gradeId": "Level 5",
+            "description": ""
+        }
+    ]
+}

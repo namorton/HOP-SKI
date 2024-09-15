@@ -1,0 +1,29 @@
+{
+    "roleId": "God Like Deity",
+    "behaviours": [
+        {"behaviourId": "Developing Others", "level":"5"},
+        {"behaviourId": "Team Leadership", "level":"5"},
+        {"behaviourId": "Influence", "level":"5"},
+        {"behaviourId": "Managing External Relationships", "level":"5"},
+        {"behaviourId": "Working Together", "level":"5"},
+        {"behaviourId": "Adaptability", "level":"5"},
+        {"behaviourId": "Cultural Sensitivity", "level":"5"},
+        {"behaviourId": "Courage and Conviction", "level":"5"},
+        {"behaviourId": "Forward Thinking", "level":"5"},
+        {"behaviourId": "Initiative", "level":"5"},
+        {"behaviourId": "Result Orientation", "level":"5"},
+        {"behaviourId": "Analysis and Judgement", "level":"5"},
+        {"behaviourId": "Concern for Order and Quality", "level":"5"},
+        {"behaviourId": "Expertise", "level":"5"},
+        {"behaviourId": "Planning and Organising", "level":"5"}
+    ],
+    "skills": [
+        {"skillId": "Software Product Lines", "level":"5"},
+        {"skillId": "Software Architectures", "level":"5"},
+        {"skillId": "Software Design and Implementation", "level":"5"},
+        {"skillId": "Software Safety", "level":"5"},
+        {"skillId": "Software Security", "level":"5"},
+        {"skillId": "Distributed Computing", "level":"5"},
+        {"skillId": "Computing Platforms and Execution Environments", "level":"5"}
+    ]
+}

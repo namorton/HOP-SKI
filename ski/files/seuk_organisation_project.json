@@ -1,0 +1,95 @@
+{"organisations":[
+    {
+        "organisationId":"M-EN-SE-UK",
+        "organisationName":"Software Engineering UK"},
+    {
+        "organisationId":"M-EN-SE-UK-C2",
+        "organisationName":"C2 and Firing Unit"},
+    {
+        "organisationId":"M-EN-SE-UK-C2-DS",
+        "organisationName":"Product Level Test"},
+    {
+        "organisationId":"M-EN-SE-UK-C2-L",
+        "organisationName":"Land Ceptor",
+        "projects": [
+            { "projectId":"Oaktree", "description":"A component oriented architecture C2 system implemented using C++ and using DDS for data distribution."}
+        ]},
+    {
+        "organisationId":"M-EN-SE-UK-C2-N",
+        "organisationName":"Viper-Ceptor",
+        "projects": [
+            { "projectId":"Sea Viper", "description":"A maritime weapon system installed on the Type 45 destroyers."},
+            { "projectId":"Land Ceptor", "description":"A land based weapon system."},
+            { "projectId":"Sea Ceptor", "description":"A maritime weapon system installed on the Type 23, Type 26 frigates and export programmes"},
+            { "projectId":"SV-CAMM", "description":"A maritime weapon system installed on the Type 45 destroyers intended as a replacement for Sea Viper."},
+            { "projectId":"SV-E", "description":"A maritime weapon system installed on the Type 45 destroyers intended as an update to SV-CAMM."}
+        ]},
+    {
+        "organisationId":"M-EN-SE-UK-C2-VT",
+        "organisationName":"Virtual and Target",
+        "projects": [
+            { "projectId":"Target", "description":"Insert target description here"},
+            { "projectId":"Virtual", "description":"Insert virtual description here"}
+        ]},
+    {
+        "organisationId":"M-EN-SE-UK-MPC",
+        "organisationName":"Mission Planning & Control"},
+    {
+        "organisationId":"M-EN-SE-UK-MPC-EPG",
+        "organisationName":"Engagement Planners & Gateways"},
+    {
+        "organisationId":"M-EN-SE-UK-MPC-HCS",
+        "organisationName":"HMI & Cyber Security"},
+    {
+        "organisationId":"M-EN-SE-UK-MPC-MP",
+        "organisationName":"MP&C In Service Products"},
+    {
+        "organisationId":"M-EN-SE-UK-RT",
+        "organisationName":"Real Time"},
+    {
+        "organisationId":"M-EN-SE-UK-RT-ACT",
+        "organisationName":"Actuators"},
+    {
+        "organisationId":"M-EN-SE-UK-RT-DLT",
+        "organisationName":"Datalinks & Terminals"},
+    {
+        "organisationId":"M-EN-SE-UK-RT-LMU",
+        "organisationName":""},
+    {
+        "organisationId":"M-EN-SE-UK-RT-SKR",
+        "organisationName":"Seekers"},
+    {
+        "organisationId":"M-EN-SE-UK-RT-WBA",
+        "organisationName":""},
+    {
+        "organisationId":"M-EN-SE-UK-RT-WBB",
+        "organisationName":""},
+    {
+        "organisationId":"M-EN-SE-UK-TT",
+        "organisationName":"Test Software"},
+    {
+        "organisationId":"M-EN-SE-UK-TT-FT",
+        "organisationName":"Functional Test"},
+    {
+        "organisationId":"M-EN-SE-UK-TT-MI",
+        "organisationName":"Manufacturing Intelligence & Support"},
+    {
+        "organisationId":"M-EN-SE-UK-TT-PT",
+        "organisationName":"Production Test"},
+    {
+        "organisationId":"M-EN-SE-PLC-UK",
+        "organisationName":"SPLC - UK"},
+    {
+        "organisationId":"M-EN-SE-PLC-UK-CT",
+        "organisationName":"Dependability & Architecture",
+        "projects": [
+            { "projectId":"SE Capability Uplift", "description":"A project intended to improve MBDA's software engineering capability."},
+            { "projectId":"HiSIL", "description":"A project intended to improve the dependability of software."}
+        ]},
+    {
+        "organisationId":"M-EN-SE-PLC-UK-PLM",
+        "organisationName":"Infrastructure & Tools"},
+    {
+        "organisationId":"M-EN-SE-PLC-UK-TX",
+        "organisationName":"Technical Experts"}
+]}
